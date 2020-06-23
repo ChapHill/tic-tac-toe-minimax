@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.grid-item {
+    border: 1px solid black;
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#myButton {
+    width: 50%;
+    display: none;
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:7px;
+	border:1px solid #4e6096;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:16px 36px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px  #283966;
+}
+#myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+#myButton:active {
+	top:1px;
+}
+
+.button-container {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
