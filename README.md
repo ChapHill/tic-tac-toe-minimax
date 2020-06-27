@@ -1,6 +1,9 @@
 # Tic-tac-toe with unbeatable AI
 Simple tic-tac-toe game that implements the minimax algorithm to make it impossible for the user to win and at best tie against the computer.
 
+## Play
+[Play a game](https://chaphill.github.io/tic-tac-toe-minimax/)
+
 ## What is minimax and how does it work with tic-tac-toe?
 A quick summary of how the minimax algorithm works with our game of tic-tac-toe is when you as the user makes a move, the computer then processes all the possible moves it can thereafter make. The computer then gives itself three different possible scores for the three different outcomes of the game (win, loss, draw) with each move. 
 
